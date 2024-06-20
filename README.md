@@ -2,7 +2,7 @@
 
 • Welcome to FilmVault, the ultimate app for discovering everything about your favorite movies! Whether you're a movie buff or just looking for something to watch, FilmVault is your go-to resource for comprehensive movie information. With detailed sections for the best movies, various categories, and upcoming releases, FilmVault ensures you stay informed and entertained.
 
-➡ <b> Features: </b>
+# <b> Features </b>
 
 • <b> Best Movies: </b> Explore a curated list of top-rated movies. From timeless classics to modern hits, our best movies section highlights films that you shouldn't miss.
 
@@ -21,6 +21,6 @@
 ↪ Sign Up: Create an account to unlock personalized features. <br>
 ↪ Login: Access your account to manage your watchlist.
 
-➡ <b> Technology: </b>
+# <b> Technology </b>
 
 • FilmVault uses a reliable and comprehensive API to fetch all movie data dynamically, ensuring you always have access to the most current and accurate information. Our user-friendly interface and seamless navigation make exploring movie information a delightful experience.
