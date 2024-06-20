@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@color/main_color"
+    tools:context=".Activities.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Log In"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="128dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"/>
+
+            <EditText
+                android:id="@+id/username_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="UserName"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:background="@drawable/edittext_background"
+                android:layout_marginTop="128dp"
+                android:layout_marginHorizontal="32dp"/>
+
+            <EditText
+                android:id="@+id/password_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:background="@drawable/edittext_background"
+                android:layout_marginTop="32dp"
+                android:layout_marginHorizontal="32dp"/>
+
+            <TextView
+                android:id="@+id/forget_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Forget Password?"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_marginTop="16dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/logInBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                style="@android:style/Widget.Button"
+                android:background="@drawable/orange_button_background"
+                android:layout_marginTop="64dp"
+                android:layout_marginHorizontal="32dp"/>
+
+            <TextView
+                android:id="@+id/not_have_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Don't Have An Account?"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginTop="32dp"/>
+
+            <TextView
+                android:id="@+id/register_now"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register Now"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
