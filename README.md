@@ -1,4 +1,4 @@
-🎦 <b> FilmVault </b>🍿
+# 🎦 <b> FilmVault </b>🍿
 
 • Welcome to FilmVault, the ultimate app for discovering everything about your favorite movies! Whether you're a movie buff or just looking for something to watch, FilmVault is your go-to resource for comprehensive movie information. With detailed sections for the best movies, various categories, and upcoming releases, FilmVault ensures you stay informed and entertained.
 
