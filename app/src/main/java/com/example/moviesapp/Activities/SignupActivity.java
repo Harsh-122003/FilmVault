@@ -50,15 +50,7 @@ public class SignupActivity extends AppCompatActivity {
                 }
                 else
                 {
-
                     DataBaseHelper helper = new DataBaseHelper(SignupActivity.this);
-//                    if (helper.existUser(usernameVal))
-//                    {
-//                        Toast.makeText(SignupActivity.this, "User Already Exist", Toast.LENGTH_SHORT).show();
-//                    }
-//                    else
-//                    {
-//                    }
                     helper.deleteUser("");
                     helper.insertUser(nameVal, usernameVal, emailVal, passwordVal);
                     Intent login = new Intent(SignupActivity.this, LoginActivity.class);
@@ -67,5 +59,11 @@ public class SignupActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+        super.onBackPressed();
     }
 }

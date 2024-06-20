@@ -2,7 +2,6 @@ package com.example.moviesapp.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -55,13 +54,10 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        register.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent signup = new Intent(LoginActivity.this, SignupActivity.class);
-                startActivity(signup);
-                finish();
-            }
+        register.setOnClickListener(v -> {
+            Intent signup = new Intent(LoginActivity.this, SignupActivity.class);
+            startActivity(signup);
+            finish();
         });
     }
 }
