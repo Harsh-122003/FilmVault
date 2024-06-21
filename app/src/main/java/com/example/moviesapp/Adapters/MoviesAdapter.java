@@ -48,13 +48,10 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.ViewHolder
                 .apply(requestOptions)
                 .into(holder.img);
 
-        holder.itemView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(context, DetailActivity.class);
-                 i.putExtra("id", list.get(holder.getAdapterPosition()).id);
-                context.startActivity(i);
-            }
+        holder.itemView.setOnClickListener(v -> {
+            Intent i = new Intent(context, DetailActivity.class);
+            i.putExtra("id", list.get(holder.getAdapterPosition()).id);
+            context.startActivity(i);
         });
     }
 

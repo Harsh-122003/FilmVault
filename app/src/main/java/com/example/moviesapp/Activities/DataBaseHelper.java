@@ -55,7 +55,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
     public String getPassword(String username)
     {
         SQLiteDatabase db = this.getReadableDatabase();
-        Cursor cursor = db.rawQuery("SELECT * FROM " + TABLE_NAME + " WHERE " + USERNAME + " = " + username, null);
+        Cursor cursor = db.rawQuery("SELECT * FROM " + TABLE_NAME + " WHERE " + USERNAME + " = ?", new String[]{username});
         if(cursor.moveToFirst())
         {
             String password = cursor.getString(3);
@@ -68,8 +68,8 @@ public class DataBaseHelper extends SQLiteOpenHelper {
     public boolean existUser(String username)
     {
         SQLiteDatabase db = this.getReadableDatabase();
-        Cursor cursor = db.rawQuery("SELECT " + PASSWORD + " FROM " + TABLE_NAME + " WHERE " + USERNAME + " = " + username, null);
-        if (cursor != null)
+        Cursor cursor = db.rawQuery("SELECT " + PASSWORD + " FROM " + TABLE_NAME + " WHERE " + USERNAME + " = ?", new String[]{username});
+        if (cursor != null && cursor.getCount() > 0)
         {
             cursor.close();
             return true;

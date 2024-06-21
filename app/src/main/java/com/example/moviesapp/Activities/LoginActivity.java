@@ -41,7 +41,11 @@ public class LoginActivity extends AppCompatActivity {
             else
             {
                 DataBaseHelper helper = new DataBaseHelper(LoginActivity.this);
-                if(passwordVal.equals(helper.getPassword(usernameVal)))
+                if(!helper.existUser(usernameVal))
+                {
+                    Toast.makeText(this, "There Is No User With The Given Username", Toast.LENGTH_LONG).show();
+                }
+                else if(passwordVal.equals(helper.getPassword(usernameVal)))
                 {
                     Intent i = new Intent(LoginActivity.this, MainActivity.class);
                     startActivity(i);
@@ -49,7 +53,7 @@ public class LoginActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    Toast.makeText(LoginActivity.this,"Invalid UserName Or Password",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this,"Invalid Password",Toast.LENGTH_SHORT).show();
                 }
             }
         });
