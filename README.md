@@ -28,17 +28,13 @@
 # Demo
 
 <p align="center"> 
-  <img src="https://github.com/Harsh-122003/FilmVault/assets/115886477/bc13bbbd-4e93-4ae1-b82e-e6a4d34b2f7a" height="500">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/Harsh-122003/FilmVault/assets/115886477/bc13bbbd-4e93-4ae1-b82e-e6a4d34b2f7a" height="500" align="left">
   <img src="https://github.com/Harsh-122003/FilmVault/assets/115886477/626a8f81-0c0d-477e-8db7-46488468069c" height="500">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/Harsh-122003/FilmVault/assets/115886477/25b316b6-527f-4a60-9a06-110da7d6a289" height="500">
+  <img src="https://github.com/Harsh-122003/FilmVault/assets/115886477/25b316b6-527f-4a60-9a06-110da7d6a289" height="500" align="right">
 </p>
-<br><br><br>
+<br><br>
 <p align="center">
-  <img src="https://github.com/Harsh-122003/FilmVault/assets/115886477/077b8712-4514-409d-9835-60ea38082f70" height="500">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/Harsh-122003/FilmVault/assets/115886477/077b8712-4514-409d-9835-60ea38082f70" height="500" align="left">
   <img src="https://github.com/Harsh-122003/FilmVault/assets/115886477/6cca6bf3-cf42-4620-b15a-317b5986c09c" height="500">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/Harsh-122003/FilmVault/assets/115886477/cac13573-ab24-4911-82ad-fceec7bdd5b3" height="500">
+  <img src="https://github.com/Harsh-122003/FilmVault/assets/115886477/cac13573-ab24-4911-82ad-fceec7bdd5b3" height="500" align="right">
 </p>
